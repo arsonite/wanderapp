@@ -1,0 +1,83 @@
+#record {
+  top: 75px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#record .backButton {
+  position: absolute;
+
+  z-index: 2001;
+}
+
+#record .buttonContainer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+
+  transition: bottom 0.5s ease;
+
+  z-index: 2001;
+}
+
+#record .buttonContainer.down {
+  bottom: -25px;
+}
+
+#record .buttonContainer .buttonBox {
+  position: relative;
+  margin: 0 auto;
+  width: 25vw;
+
+  z-index: 2001;
+}
+
+#record .buttonContainer .buttonBox .button {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 40px;
+
+  transition: all 0.5s ease;
+}
+
+#record .buttonContainer .roundButton {
+  z-index: 2003;
+}
+
+#record #start {
+  z-index: 2005;
+}
+
+#record #stop {
+  z-index: 2004;
+}
+
+#record .buttonContainer .buttonBox .button.left {
+  left: -60%;
+}
+
+#record .buttonContainer .buttonBox .button.right {
+  left: 60%;
+}
+
+#record .buttonContainer #display {
+  position: absolute;
+  background-color: #eeeae7;
+  height: 70px;
+  width: 100%;
+  padding: 35px;
+  bottom: 0;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 20px;
+}
+
+#record .mapContainer {
+  overflow: hidden;
+}
+
+#record .map {
+  height: 100vh;
+}

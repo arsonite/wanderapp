@@ -1,0 +1,149 @@
+#details {
+  height: 100vh;
+  width: 100vw;
+  background-color: #eeeae7;
+  color: #9b9694;
+}
+
+#details #content {
+  position: absolute;
+  display: block;
+  top: 75px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  z-index: 2000;
+}
+
+#details #content #components {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  margin: 15px 0;
+  padding: 0 15px;
+}
+
+#details p {
+  border: none;
+  outline: none;
+}
+
+#details form {
+  margin-top: 10px;
+  padding: 0 15px;
+}
+
+#details span,
+#details form label {
+  font-weight: bold;
+}
+
+#details .form-control.form-rounded {
+  margin: 15px 0;
+  background-color: #dcd9d2;
+  border: none;
+  outline: none;
+}
+
+#details #map {
+  position: relative;
+  top: 0;
+  height: 35%;
+  width: 100%;
+
+  z-index: 2000;
+}
+
+#details #detailsMap {
+  height: 100%;
+  width: 100%;
+}
+
+#details #content .bar {
+  display: flex;
+}
+
+#details #content .bar p {
+  font-weight: normal;
+  padding-left: 10px;
+}
+#details #lower_bar .buttonBox .roundButton {
+  bottom: 35%;
+}
+
+#details #lower_bar .buttonBox .filter {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 15vw;
+  height: 15vw;
+  bottom: 35%;
+}
+
+#details #lower_bar .buttonBox .filter img {
+  width: 100%;
+  height: 100%;
+}
+
+#details #content #surfaces #surfacesBox,
+#details #content #tags #tagsBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#details #content #surfaces #surfacesBox .form-control.form-rounded,
+#details #content #tags #tagsBox .form-control.form-rounded {
+  width: fit-content;
+  text-align: center;
+  margin-right: 10px;
+  padding: 5px 15px;
+}
+
+#details .privateWarning {
+  padding: 15px;
+  padding-bottom: 5px;
+  background-color: #469db2;
+}
+
+#details .privateWarning p {
+  color: #eee;
+}
+
+#details .backButton {
+  position: absolute;
+  top: 10px;
+}
+
+@media (min-width: 400px) {
+  #details #lower_bar .buttonBox .filter {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+#details #titleBox {
+  top: 10px;
+}
+
+#details #titleBox #title {
+  top: 0;
+  width: 100%;
+
+  position: relative;
+  padding-right: 10px;
+  white-space: nowrap;
+  overflow-y: hidden;
+  text-overflow: clip;
+  height: fit-content;
+  width: 100%;
+}
+
+#details #titleBox #title ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

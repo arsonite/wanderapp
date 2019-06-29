@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 70vh;
+}
+
+#myMap {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+}

@@ -1,0 +1,54 @@
+.slide {
+  padding: 15px;
+  width: 100%;
+  height: 85vh;
+  overflow: hidden !important;
+}
+
+.slide div {
+  margin-top: 10%;
+}
+
+.slide .icon img {
+  width: 35vw;
+  height: auto;
+}
+
+.slide .icon p {
+  display: inline;
+  border: none;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.slide .icon #p1 {
+  color: #56a95a;
+}
+
+.slide .icon #p2 {
+  color: #353535;
+}
+
+.slide .title {
+  font-weight: bold;
+  font-size: 7vw;
+}
+
+.slide .content {
+  font-size: 7vw;
+}
+
+@media (min-width: 500px) {
+  .slide .icon img {
+    width: 180px;
+    height: auto;
+  }
+
+  .slide .title {
+    font-size: 35px;
+  }
+
+  .slide .content {
+    font-size: 35px;
+  }
+}

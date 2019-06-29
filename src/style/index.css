@@ -1,0 +1,266 @@
+button {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input::placeholder {
+  color: #9b9694 !important;
+  font-style: italic;
+  text-align: left;
+}
+
+*.hidden,
+*#hidden {
+  display: none !important;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  overflow: hidden !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  background-color: #eeeae7;
+  color: #353535;
+  position: fixed;
+  height: 100%;
+  width: 100vw;
+  z-index: 0;
+}
+
+h1 {
+  font-family: 'Alfa Slab One';
+  color: #3c3934;
+}
+
+h2 {
+  font-family: Play;
+  color: #3c3934;
+  margin-bottom: 5%;
+}
+
+p {
+  color: #3c3934;
+}
+
+h1 > span {
+  color: #56a59a;
+}
+
+a {
+  color: #3c3934;
+}
+
+.btn {
+  margin: 5% auto 5% auto;
+  background-color: #56a59a;
+  border-style: none;
+}
+
+.btn:hover {
+  background-color: #3c3934;
+}
+
+.btn:disabled {
+  margin: 5% auto 5% auto;
+  background-color: #56a59a;
+  border-style: none;
+}
+
+.btn:disabled:hover {
+  background-color: #3c3934;
+}
+
+.form-rounded {
+  border-radius: 20px 20px 20px 20px;
+  height: fit-content;
+  text-align: left !important;
+  padding-left: 20px;
+}
+
+.backButton {
+  position: absolute;
+  background-color: #eeeae7 !important;
+  top: 85px;
+  opacity: 0.8 !important;
+  margin-left: 10px !important;
+  width: 45px !important;
+  height: 45px !important;
+
+  z-index: 3000;
+}
+
+.backButton img {
+  width: 30px !important;
+  height: 30px !important;
+  transform: rotateZ(180deg);
+}
+
+h3 {
+  font-family: Play;
+  color: #fff;
+  margin-bottom: 3%;
+}
+
+h4 {
+  font-family: Play;
+  color: #fff;
+  margin-bottom: 1%;
+}
+
+p {
+  color: #353535;
+  border: none !important;
+  outline: none !important;
+}
+
+#lower_bar {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: #333;
+  opacity: 0.95;
+  width: 100%;
+  height: 30vw;
+  bottom: 0;
+
+  z-index: 2002;
+}
+
+#lower_bar .buttonBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: fit-content;
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#lower_bar .buttonBox p {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-family: Quicksand;
+  font-size: 3.5vw;
+  color: #eee;
+  bottom: 10px;
+  text-align: center;
+  position: absolute;
+}
+
+#lower_bar_placeholder {
+  position: relative;
+  display: block;
+  background-color: #eeeae7;
+  bottom: 0;
+
+  padding-top: 185px;
+  width: 100%;
+}
+
+.roundButton {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 35%;
+  border-radius: 100%;
+  background-color: #56a95b;
+  width: 17vw;
+  height: 17vw;
+}
+
+.roundButton.disabled {
+  background-color: #8dc08c;
+}
+
+.roundButton img {
+  width: 50%;
+  height: 50%;
+}
+
+.notification-container {
+  top: 70px;
+  width: 100%;
+}
+
+.notification {
+  width: 100%;
+}
+
+.notification-container span {
+  color: #eee !important;
+  opacity: 0.95 !important;
+}
+
+#titleBox {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-direction: row;
+  opacity: 0.9;
+  top: 85px;
+  border: none;
+  width: 100%;
+
+  z-index: 2001;
+}
+
+#titleBox #title {
+  margin-left: 55px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 10px;
+  background-color: #eeeae7;
+  font-size: 4vw;
+}
+
+@media (min-width: 400px) {
+  #lower_bar {
+    height: 120px;
+  }
+
+  .roundButton {
+    width: 67px;
+    height: 67px;
+  }
+
+  #lower_bar .buttonBox p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 500px) {
+  #titleBox #title {
+    font-size: 20px;
+  }
+}

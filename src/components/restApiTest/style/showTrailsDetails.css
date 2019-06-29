@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#mainContainer{
+    margin: auto;
+    top: 10px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+.detailsMap{
+    height:70vh;
+    width:100%;
+    z-index: 2000;
+    border: 2px solid dashed;
+}
+p{
+    border: 1px solid black;
+}

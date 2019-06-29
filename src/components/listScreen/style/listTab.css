@@ -1,0 +1,32 @@
+.list_tab {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.list_tab p {
+  border: none;
+  margin-left: 2px;
+  margin-bottom: -2px;
+  color: #eee;
+}
+
+#list_last {
+  background-color: #9b9694;
+}
+
+#list_trend {
+  background-color: #353535;
+}
+
+#list_new {
+  background-color: #9b9694;
+}
+
+#list_last #noRoute {
+  color: #353535;
+  margin: 10px 2px;
+  font-size: 17px;
+}

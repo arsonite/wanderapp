@@ -1,0 +1,52 @@
+#registration {
+  overflow-y: auto;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeae7;
+  color: #353535;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+
+  z-index: 4001;
+}
+
+#registration #back {
+  margin-bottom: 25px;
+  width: fit-content;
+}
+
+#registration a {
+  color: #353535;
+  margin: 15px 0 0 15px;
+}
+
+#registration .form-group {
+  padding: 10px 15px;
+}
+
+#registration .form-rounded {
+  border: none;
+  border-radius: 3rem;
+  width: 100%;
+  height: 40px;
+  background-color: #dcd9d2;
+  margin-bottom: 10px;
+}
+
+#registration .btn.btn-primary {
+  display: block;
+  font-size: 20px;
+  margin: 0 auto 25px auto;
+  color: #eee;
+  background-color: #56a95a;
+}
+
+#registration p {
+  font-size: 0.8rem;
+  font-style: italic;
+  margin-left: 15px;
+  margin-top: -15px;
+  color: #353535;
+}

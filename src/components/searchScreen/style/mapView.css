@@ -1,0 +1,60 @@
+#search #myMap {
+  position: fixed;
+  display: block;
+  top: 75px;
+  height: 100%;
+  width: 100%;
+}
+
+#search #descr,
+#search #legend {
+  position: fixed;
+  background: rgba(238, 234, 231, 0.85);
+  text-align: center;
+  height: 46px;
+  width: 46%;
+  left: 27%;
+  border-radius: 5px;
+}
+
+#search #descr {
+  position: fixed;
+  font-size: 90%;
+  top: 85px;
+}
+
+#search #legend {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  top: 95px;
+  margin: 10px auto;
+  z-index: 3000;
+}
+
+#search button {
+  display: block;
+  position: absolute;
+  background-color: #56a95b;
+  z-index: 3001;
+}
+
+#search #filterButton {
+  opacity: 0.8;
+  height: 45px;
+  width: 45px;
+  margin-top: 10px;
+  margin-right: 10px;
+  top: 75px;
+  right: 0;
+}
+
+#search #filterButton #filterImg {
+  width: 30px;
+  height: 30px;
+}
+
+#search .roundButton {
+  position: absolute;
+  bottom: 15px;
+}

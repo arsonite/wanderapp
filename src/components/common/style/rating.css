@@ -1,0 +1,30 @@
+.ratingBox {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.ratingBox label {
+  padding-right: 5px;
+}
+
+.ratingBox .dv-star-rating {
+  display: flex !important;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ratingBox .dv-star-rating-star {
+  font-size: 50px;
+}
+
+.ratingBox .dv-star-rating-star.dv-star-rating-full-star {
+  color: #56a95a !important;
+}
+
+.ratingBox .dv-star-rating-star.dv-star-rating-empty-star {
+  color: #dcd9d2 !important;
+}

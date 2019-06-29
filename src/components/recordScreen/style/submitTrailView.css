@@ -1,0 +1,103 @@
+#submitTrail {
+  background-color: #eeeae7;
+  height: 100vh;
+  color: #9b9694;
+}
+
+#submitTrail form {
+  margin: 90px 15px 10px 15px;
+  padding-bottom: 10%;
+}
+
+#submitTrail span {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#submitTrail .form-control.form-rounded {
+  margin: 15px 0px;
+  background-color: #dcd9d2;
+  border: none;
+  outline: none;
+}
+
+#submitTrail form input {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 3rem;
+  width: 100%;
+  height: 40px;
+  background-color: #dcd9d2;
+  padding-left: 20px !important;
+}
+
+#submitTrail #map {
+  position: relative;
+  top: 75px;
+  height: 35%;
+  width: 100%;
+
+  z-index: 2001;
+}
+
+#submitTrail #submitTrailMap {
+  height: 100%;
+  width: 100%;
+}
+
+#submitTrail #content {
+  bottom: 0;
+  position: fixed;
+  top: 0%;
+  overflow-y: auto;
+  width: 100%;
+
+  z-index: 1999;
+}
+
+#submitTrail .backButton {
+  position: fixed;
+  top: 85px;
+  z-index: 2001;
+}
+
+#submitTrail #content .bar {
+  display: flex;
+}
+
+#submitTrail #content .bar p {
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+#submitTrail #content .form-group {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+#submitTrail #content .form-group input {
+  font-weight: normal;
+  padding-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+#submitTrail .m10 {
+  margin-top: 10px;
+}
+
+#submitTrail #necessaryFields {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#submitTrail #distance,
+#submitTrail #duration {
+  margin-bottom: 0;
+}
+
+#submitTrail #lower_bar_placeholder {
+  padding-top: 150px;
+}

@@ -1,0 +1,9 @@
+.fieldWithErrors {
+  border: 2px solid Tomato !important;
+}
+
+.errorMsg{
+  color:Tomato !important;
+  font-size: 14px;
+  margin-left: 22px;
+}

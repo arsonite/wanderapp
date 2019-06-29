@@ -1,0 +1,32 @@
+{
+  "url": {
+    "appEntry": "/",
+
+    "recordScreen": "/record",
+    "submitTrailView": "/record/submit",
+
+    "searchScreen": "/search",
+    "mapView": "/search/map",
+    "districtView": "/search/map/district",
+    "positionView": "/search/map/position",
+    "detailView": "/detail",
+    "walkView": "/walk",
+    "goToStart": "/walk/start",
+    "walkTrail": "/walk/trail",
+    "walkFinish": "/walk/finish",
+
+    "listScreen": "/list",
+    "listDetailView": "/list/detail",
+
+    "profileScreen": "/profile",
+    "profileEditView": "/profile/edit",
+    "profileDetailView": "/profile/detail",
+    "impressum": "/profile/impressum",
+    "datenschutz": "/profile/datenschutz",
+
+    "loginView": "/login",
+    "registrationView": "/registration",
+
+    "tutorialView": "/tutorial"
+  }
+}

@@ -1,0 +1,6 @@
+#myDiv{
+    position: fixed;
+    bottom: 100px;
+    left:0;
+    border:2px solid black;
+}

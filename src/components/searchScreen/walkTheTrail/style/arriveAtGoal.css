@@ -1,0 +1,112 @@
+#arriveAtGoal #titleBox {
+  top: 10px;
+}
+
+#arriveAtGoal {
+  height: 100%;
+  width: 100%;
+  background-color: #eeeae7;
+  color: #9b9694;
+}
+
+#arriveAtGoal #content {
+  position: absolute;
+  display: block;
+  top: 75px;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  z-index: 2000;
+}
+
+#arriveAtGoal #content #components {
+  position: relative;
+  height: fit-content;
+  width: 100%;
+  margin-top: 10px;
+  padding: 0 15px;
+}
+#arriveAtGoal p {
+  font-weight: normal;
+  border: none;
+  outline: none;
+}
+
+#arriveAtGoal span {
+  font-weight: bold;
+}
+
+#arriveAtGoal .form-control.form-rounded {
+  margin: 15px 0;
+  background-color: #dcd9d2;
+  border: none;
+  outline: none;
+}
+
+#arriveAtGoal #map {
+  position: relative;
+  top: 0;
+  height: 35%;
+  width: 100%;
+
+  z-index: 2000;
+}
+
+#arriveAtGoal #arriveAtGoalMap {
+  height: 100%;
+  width: 100%;
+}
+
+#arriveAtGoal #GoalData {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#arriveAtGoal #content .bar {
+  display: flex;
+}
+
+#arriveAtGoal #content .bar p {
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+#arriveAtGoal .backButton {
+  position: absolute;
+  top: 10px;
+}
+
+#arriveAtGoal .header {
+  font-weight: normal;
+}
+
+#arriveAtGoal #GoalData {
+  padding-top: 15px;
+}
+
+#arriveAtGoal #rtng {
+  padding-top: 15px;
+  margin-bottom: -15px;
+}
+
+#arriveAtGoal #rtng span {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+#arriveAtGoal #rtng span p {
+  padding-left: 5px;
+  font-weight: normal;
+}
+
+#arriveAtGoal #lower_bar .buttonBox .roundButton {
+  bottom: 35%;
+}
+
+#arriveAtGoal #lower_bar .buttonBox .roundButton.disabled {
+  background-color: #8dc08c;
+}

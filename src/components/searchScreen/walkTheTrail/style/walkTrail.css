@@ -1,0 +1,7 @@
+#walkTrail #map {
+  height: 100vh;
+}
+
+#walkTrail .roundButton {
+  bottom: 15px;
+}

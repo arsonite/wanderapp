@@ -1,0 +1,54 @@
+#login {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeae7;
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+
+  overflow-y: auto;
+
+  z-index: 4001;
+  color: #353535;
+}
+
+#login .h1_Logo {
+  text-align: center;
+  padding: 15% 0;
+  color: #56a95a;
+}
+
+#login .h1_Logo span {
+  color: #353535;
+}
+
+#login .form-group {
+  padding: 10px 15px;
+}
+
+#login .btn.btn-primary {
+  display: block;
+  font-size: 20px;
+  margin: 0 auto 25px auto;
+  color: #eee;
+  background-color: #56a95a;
+}
+
+#login .registerBtn {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+#login p {
+  border-style: none;
+}
+
+#login .form-rounded {
+  border: none;
+  border-radius: 3rem;
+  width: 100%;
+  height: 40px;
+  background-color: #dcd9d2;
+  margin-bottom: 10px;
+}

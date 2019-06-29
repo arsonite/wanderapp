@@ -1,0 +1,7 @@
+#goToStart #map {
+  height: 100vh;
+}
+
+#goToStart .roundButton {
+  bottom: 15px;
+}

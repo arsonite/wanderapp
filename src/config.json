@@ -1,0 +1,5 @@
+{
+  "apiUrl3": "http://localhost:4000/api",
+  "apiUrl2": "https://wander-app-backend.herokuapp.com/api",
+  "apiUrl": "https://deplooy.de/api"
+}
